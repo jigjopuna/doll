@@ -41,6 +41,55 @@ button {
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none; }
+  
+  .btn_del {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 4px 5px 4px 6px;
+  text-decoration: none;
+}
+
+.btn_del:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+  .bnt_basket { margin-left: 30px; 
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  font-size: 15px;
+  padding: 7px 20px 7px 20px;
+  text-decoration: none;
+}
+
+.bnt_basket:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
 
 /*http://css3buttongenerator.com/*/
 /* ------------------------------------------------------------ *\
@@ -333,8 +382,16 @@ nav li a {
 			.p_img {  float:left; width:40%;
 				img { width:100%;}
 			}
-			.p_detail { float:left; margin-left: 30px; width:50%;
-			
+			.p_detail { float:left; margin-left: 30px; width:55%;
+				.p_name { padding: 5px; border-bottom: 1px solid gray; }
+				.p_price { padding: 5px; border-bottom: 1px solid gray; }
+				.p_action { background-color:#E5E5E5;  padding: 10px; overflow: hidden;
+					.p_qty {  float: left;  width: 40%;
+						input[type=text] { width: 50px; padding: 4px;  }
+					}
+					.p_btn {  float: left; width: 60%;}
+				}/*end .p_action*/
+				.p_descript { margin-top: 8px;  }
 			}
 			.product{ width: 98%; /*background: olive;*/ margin: 0 auto;
 				li { float: left; /*background: orange;*/ width: 15%; margin:0 5px; min-height:300px;
@@ -353,8 +410,8 @@ nav li a {
 							span.descript { color: #006bce;
 								&:hover { color: #f77e00; text-decoration:underline; } 
 							}
-							span.price { color: #761025;} 
 						}/*end a*/
+						span.price { color: #761025; font-size: 0.85em;}
 						
 					
 					}/*end product_detail*/
@@ -363,18 +420,27 @@ nav li a {
 				.texts { width: 75%; margin: auto; }
 				
 				/*for basket page*/
-				.b_item { background-color: orange; width: 65%; float:left; 
-					.b_eachItem { background-color: olive; margin-bottom: 10px; 
-						.b_content { background-color: green; width: 47%; float:left; margin-bottom : 5px; 
-							.b_img { background-color: blue; width: 50%; float:left; 
+				.b_item {  width: 63%; float:left; 
+					.b_eachItem {   margin-bottom: 10px; border: 1px solid gray; overflow: hidden;
+						.b_content {  width: 53%; float:left; margin : 5px 0 5px 0; 
+							.b_img {  width: 45%; float:left; 
 								img { width: 100%; }
 							}
-							.b_pname { background-color: gray; width: 49%; float:left; }
+							.b_pname {  width: 49%; float:left; margin-left: 5px; }
 						}/*end b_content*/
-						.b_cash { background-color: yellow; width: 47%; float:left; margin-bottom : 5px; }
+						.b_cash {  width: 43%; float:left; margin : 5px 0 5px 10px;
+							table { width: 100%;
+								tr.hr{ border-bottom: 1px solid gray; height: 35px;}
+								input[type=text]{ width: 50px; padding: 3px; }
+							}/*end table*/
+						}/*end b_cash*/
 					}/*end .b_eachItem*/
 				}/*end .b_item*/
-				.b_amount { background-color: yellow; width: 35%; float:left; }
+				.b_amount {  
+					width: 32%; float:left; 
+					margin : 0 0 0 15px; 
+					margin-bottom: 10px; border: 1px solid gray; 
+					overflow: hidden; }
 			}/*end product*/
 			#map{
 					height:400px;

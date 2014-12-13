@@ -1,3 +1,4 @@
+<?php require_once('include/connect.php'); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,7 +8,7 @@
 	<meta name="keywords" content="ซื้อตุ๊กตาชาววัง ขายตุ๊กตาชาววัง ตุ๊กตาเครื่องปั้นดินเผา บ้านบางเสด็จ" />
     <meta name="description" content="ตุ๊กตาชาววังเป็นผลิตภัณฑ์พื้นเมือง เป็นสินค้า OTOP ของดีของขึ้นชื่อและมีเสียงของจังหวัดอ่างทอง
 	ตุ๊กตาชาววังผลิตด้วยความปราณีตด้วยฝีมือชาวบ้านที่มีความชำนาญ" />
-    <title>ซื้อตุ๊กตาชาววัง ผลิตและขายตุ๊กตาชาววังปั้นดินเผา</title>
+    <title>ตะกร้าตุ๊กตาชาววัง ผลิตและขายตุ๊กตาชาววังปั้นดินเผา</title>
 	<link rel="shortcut icon" href="content/images/logo/favicon.png">
     <link type="text/css" rel="stylesheet" href="content/css/base.css">
     <link type="text/css" rel="stylesheet" href="content/css/style.css">  
@@ -39,6 +40,19 @@
 		/*---end no click right----*/
 		});//end ready
     </script>
+	<?php
+	
+	$p_code = trim($_POST['p_code']);
+	$p_qty = trim($_POST['p_qty']);
+	
+	$sql = "SELECT * 
+			FROM tb_product
+			WHERE p_code = '$p_code';
+			";
+	$result = mysql_query($sql);
+	$num = mysql_num_rows($result);
+	$row = mysql_fetch_array($result);
+?>
  </head>
   <body>
     <?php include('include/inc_menu_mobile.php');?>
@@ -49,44 +63,60 @@
       </header>
 		<div class="detail">
 			<div class="indetail">			
-				<section> 
-                	<div class="product">        	
-						<div class="texts">
-						<h1><strong><U>แนะนำร้านขายตุ๊กตาชาววัง</U></strong></h1>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ตุ๊กตาชาววังมีท่วงทาลีลาอ่อนช้อย   สวมใส่เสื้อผ้างดงามปราณีตด้วยผลงานของชาวบ้าน
-							บ่งบอกถึงคุณค่าแห่งศิลปวัฒนธรรมไทย เรื่องราวมากมายที่มีมาแต่โบราณกาล
-							ตุ๊กตาชาวไม่ได้เป็นแค่ก้อนดินเหนียวธรรมดาๆ แต่เป็นสัญลักษณ์ที่บอกถึงคุณค่าแห่งวัฒนธรรมไทย
-							ทั้งวิถีชีวิต การแต่งกาย ชนบธรรมเนียมประเพณีของชาววังอย่างครบถ้วนสมบูรณ์ ทางเว็บชาววัง
-							จึงจัดตั้งขึ้นมาจัดหน่ายตุ๊กตาชาววังของชาวไทย เพื่อให้สินค้าของคนไทย ของชาวบ้านได้เแพร่หลายออกไป และยังทำให้ชาวบ้านมีอาชีพหลักให้การเลี้ยงชีพ จึงมั่นใจได้ว่าสินค้าตุ๊กตาชาววังมีคุณภาพสูงเนื่องจากประดิษฐ์ด้วยความปราณีต เหมาะกับเป็นสินค้าสะสม หรือ ตกแต่งในบ้านเรือน นอกจากยังสามารถเป็นของฝากได้อีกด้วย และมากไปกว่านั้นทำให้เราสามารถอนุรักษ์าความเป็นไทยและเผยแพร่ข้อมูลความรู้ให้คนรุ่นหลังสืบต่อไป
-						</p>
-						</div>
-                    </div><!-----end product----->
-                </section><!---------->	
-				
-				
 				
 				<section> 
-                	<div class="product" style="background-color: pink; overflow: hidden;">
+                	<div class="product" style="overflow: hidden;">
                     	<h1><strong><U>สินค้าในตระกร้า</U></strong></h1>
                     	<div class="b_item">
 							<div class="b_eachItem">
 								<div class="b_content">
-									<div class="b_img"><img src="content/images/0098_3woman.jpg"></div><!--end b_img-->
-									<div class="b_pname">b_pname</div><!--end b_pname-->
+									<div class="b_img"><img src="content/images/home/<?php echo $row['p_image'];?>"></div><!--end b_img-->
+									<div class="b_pname"><?php echo $row['p_name'];?></div><!--end b_pname-->
 								</div><!--end b_content-->
-								<div class="b_cash">b_cash</div><!--end b_cash-->
+								<div class="b_cash">
+									<table>
+										<tr style=" height: 35px;">
+											<td align="left">จำนวน</td>
+											<td align="right">ราคา</td>
+										</tr>
+										<tr class="hr">
+											<td align="left"><input type="text" value="<?php echo $p_qty; ?>"><a class="btn_del">แก้ไข</a></td>
+											<td align="right">฿<?php echo $row['p_price'];?></td>
+										</tr>
+										<tr class="hr">
+											<td align="left">รวม</td>
+											<td align="right">฿<?php echo $row['p_price']*$p_qty;?></td>
+										</tr>
+										<tr style=" height: 40px; margin: 10px 0 0 50px; ">
+											<td align="left"><a class="btn_del">ลบ</a></td>
+											<td align="right"></td>
+										</tr>
+									</table>
+								</div><!--end b_cash-->
 							</div><!--end b_eachItem-->
 							
 							<div style="clear:both;"></div>
 							
-							<div class="b_eachItem">
-								<div class="b_content">b_content</div><!--end b_content-->
-								<div class="b_cash">b_cash</div><!--end b_cash-->
-							</div><!--end b_eachItem-->
 							
 						</div><!--end b_item-->
+						
 						<div class="b_amount">
-						b_amount
+							<table style="width:90%; margin: 3px auto;">
+								<tr style="height: 35px;">
+									<td align="center" colspan="2" style="background-color:orange;">รายการซื้อทั้งหมด</td>
+								</tr>
+								<tr style="height: 35px; border-bottom:1px solid gray;">
+									<td align="left">รายการ(<?php echo $num; ?>)</td>
+									<td align="right">฿<?php echo $row['p_price'];?></td>
+								</tr>
+								<tr style="height: 35px; border-bottom:1px solid gray;">
+									<td align="left">ราคา</td>
+									<td align="right">฿<?php echo $row['p_price']*$p_qty;?></td>
+								</tr>
+								<tr>
+									<td align="center" colspan="2"><a class="btn_del">ชำระเงิน</a></td>
+									</tr>
+							</table>
 						
 						</div><!--end b_amount-->
                     </div><!-----end product----->
@@ -94,8 +124,7 @@
 				
 				<section> 
                 	<div class="product">
-                    	<h1><strong><U>ตุ๊กตาชาววังแต่งกายของคนไทยรูปแบบต่างๆ</U></strong></h1>
-                        <span>ตุ๊กตาเด็ก</span>
+                    	<h1><strong><U>สินค้าแนะนำ</U></strong></h1>
                     	<ul style="margin-top:10px;">
                         	
 							<li>

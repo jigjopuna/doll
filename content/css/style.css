@@ -43,6 +43,52 @@ button {
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none; }
 
+.btn_del {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 4px 5px 4px 6px;
+  text-decoration: none; }
+
+.btn_del:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none; }
+
+.bnt_basket {
+  margin-left: 30px;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  font-size: 15px;
+  padding: 7px 20px 7px 20px;
+  text-decoration: none; }
+
+.bnt_basket:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none; }
+
 /*http://css3buttongenerator.com/*/
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
@@ -357,7 +403,29 @@ nav li a {
     .indetail section .p_detail {
       float: left;
       margin-left: 30px;
-      width: 50%; }
+      width: 55%;
+      /*end .p_action*/ }
+      .indetail section .p_detail .p_name {
+        padding: 5px;
+        border-bottom: 1px solid gray; }
+      .indetail section .p_detail .p_price {
+        padding: 5px;
+        border-bottom: 1px solid gray; }
+      .indetail section .p_detail .p_action {
+        background-color: #E5E5E5;
+        padding: 10px;
+        overflow: hidden; }
+        .indetail section .p_detail .p_action .p_qty {
+          float: left;
+          width: 40%; }
+          .indetail section .p_detail .p_action .p_qty input[type=text] {
+            width: 50px;
+            padding: 4px; }
+        .indetail section .p_detail .p_action .p_btn {
+          float: left;
+          width: 60%; }
+      .indetail section .p_detail .p_descript {
+        margin-top: 8px; }
     .indetail section .product {
       width: 98%;
       /*background: olive;*/
@@ -399,46 +467,57 @@ nav li a {
               .indetail section .product li .product_detail a span.descript:hover {
                 color: #f77e00;
                 text-decoration: underline; }
-            .indetail section .product li .product_detail a span.price {
-              color: #761025; }
+          .indetail section .product li .product_detail span.price {
+            color: #761025;
+            font-size: 0.85em; }
       .indetail section .product h1 {
         line-height: 2em; }
       .indetail section .product .texts {
         width: 75%;
         margin: auto; }
       .indetail section .product .b_item {
-        background-color: orange;
-        width: 65%;
+        width: 63%;
         float: left;
         /*end .b_eachItem*/ }
         .indetail section .product .b_item .b_eachItem {
-          background-color: olive;
           margin-bottom: 10px;
-          /*end b_content*/ }
+          border: 1px solid gray;
+          overflow: hidden;
+          /*end b_content*/
+          /*end b_cash*/ }
           .indetail section .product .b_item .b_eachItem .b_content {
-            background-color: green;
-            width: 47%;
+            width: 53%;
             float: left;
-            margin-bottom: 5px; }
+            margin: 5px 0 5px 0; }
             .indetail section .product .b_item .b_eachItem .b_content .b_img {
-              background-color: blue;
-              width: 50%;
+              width: 45%;
               float: left; }
               .indetail section .product .b_item .b_eachItem .b_content .b_img img {
                 width: 100%; }
             .indetail section .product .b_item .b_eachItem .b_content .b_pname {
-              background-color: gray;
               width: 49%;
-              float: left; }
+              float: left;
+              margin-left: 5px; }
           .indetail section .product .b_item .b_eachItem .b_cash {
-            background-color: yellow;
-            width: 47%;
+            width: 43%;
             float: left;
-            margin-bottom: 5px; }
+            margin: 5px 0 5px 10px;
+            /*end table*/ }
+            .indetail section .product .b_item .b_eachItem .b_cash table {
+              width: 100%; }
+              .indetail section .product .b_item .b_eachItem .b_cash table tr.hr {
+                border-bottom: 1px solid gray;
+                height: 35px; }
+              .indetail section .product .b_item .b_eachItem .b_cash table input[type=text] {
+                width: 50px;
+                padding: 3px; }
       .indetail section .product .b_amount {
-        background-color: yellow;
-        width: 35%;
-        float: left; }
+        width: 32%;
+        float: left;
+        margin: 0 0 0 15px;
+        margin-bottom: 10px;
+        border: 1px solid gray;
+        overflow: hidden; }
     .indetail section #map {
       height: 400px;
       width: 100%;

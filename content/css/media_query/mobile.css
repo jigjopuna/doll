@@ -21,6 +21,16 @@
     line-height: 30px;
     padding: 0 2px; }
 
+  section .p_img, section .p_detail {
+    width: 98% !important;
+    float: none !important; }
+
+  section .p_detail {
+    margin-left: 0 !important; }
+
+  section .product .texts {
+    width: 97% !important; }
+
   section .product li {
     width: 98% !important;
     min-height: 180px !important; }
@@ -35,8 +45,14 @@
       margin: auto;
       margin-left: 10px; }
 
-  section .p_detail {
-    margin-left: 0 !important; }
+  /*|* ------------------------------------------------------------ *|
+  |* Basket Page
+  |* ------------------------------------------------------------ *|
+  \* ------------------------------------------------------------ */
+  .b_item, .b_amount {
+    width: 98% !important;
+    float: none !important;
+    clear: both !important; }
 
-  section .product .texts {
-    width: 97% !important; } }
+  .b_amount {
+    margin-left: 0 !important; } }
