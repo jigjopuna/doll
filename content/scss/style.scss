@@ -361,6 +361,20 @@ nav li a {
 				}/*end li*/
 				h1 { line-height: 2em; }
 				.texts { width: 75%; margin: auto; }
+				
+				/*for basket page*/
+				.b_item { background-color: orange; width: 65%; float:left; 
+					.b_eachItem { background-color: olive; margin-bottom: 10px; 
+						.b_content { background-color: green; width: 47%; float:left; margin-bottom : 5px; 
+							.b_img { background-color: blue; width: 50%; float:left; 
+								img { width: 100%; }
+							}
+							.b_pname { background-color: gray; width: 49%; float:left; }
+						}/*end b_content*/
+						.b_cash { background-color: yellow; width: 47%; float:left; margin-bottom : 5px; }
+					}/*end .b_eachItem*/
+				}/*end .b_item*/
+				.b_amount { background-color: yellow; width: 35%; float:left; }
 			}/*end product*/
 			#map{
 					height:400px;

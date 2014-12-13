@@ -362,7 +362,9 @@ nav li a {
       width: 98%;
       /*background: olive;*/
       margin: 0 auto;
-      /*end li*/ }
+      /*end li*/
+      /*for basket page*/
+      /*end .b_item*/ }
       .indetail section .product li {
         float: left;
         /*background: orange;*/
@@ -404,6 +406,39 @@ nav li a {
       .indetail section .product .texts {
         width: 75%;
         margin: auto; }
+      .indetail section .product .b_item {
+        background-color: orange;
+        width: 65%;
+        float: left;
+        /*end .b_eachItem*/ }
+        .indetail section .product .b_item .b_eachItem {
+          background-color: olive;
+          margin-bottom: 10px;
+          /*end b_content*/ }
+          .indetail section .product .b_item .b_eachItem .b_content {
+            background-color: green;
+            width: 47%;
+            float: left;
+            margin-bottom: 5px; }
+            .indetail section .product .b_item .b_eachItem .b_content .b_img {
+              background-color: blue;
+              width: 50%;
+              float: left; }
+              .indetail section .product .b_item .b_eachItem .b_content .b_img img {
+                width: 100%; }
+            .indetail section .product .b_item .b_eachItem .b_content .b_pname {
+              background-color: gray;
+              width: 49%;
+              float: left; }
+          .indetail section .product .b_item .b_eachItem .b_cash {
+            background-color: yellow;
+            width: 47%;
+            float: left;
+            margin-bottom: 5px; }
+      .indetail section .product .b_amount {
+        background-color: yellow;
+        width: 35%;
+        float: left; }
     .indetail section #map {
       height: 400px;
       width: 100%;
