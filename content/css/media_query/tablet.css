@@ -1,0 +1,27 @@
+@media all and (max-width: 800px) {
+  #wrapper {
+    width: 97% !important;
+    margin: auto; }
+
+  #main_menu {
+    background: #FFF; }
+    #main_menu .buttons {
+      display: inline;
+      float: left;
+      width: 100%;
+      background: orange; }
+
+  .indetail {
+    /*end section*/ }
+    .indetail section {
+      /*end product*/ }
+      .indetail section .product {
+        /*end li*/ }
+        .indetail section .product li {
+          width: 27%;
+          margin-left: 10px;
+          padding: 0; }
+      .indetail section .texts {
+        width: 80%; }
+
+  /* end indetail*/ }
