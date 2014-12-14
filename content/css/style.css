@@ -1,3 +1,4 @@
+@charset "IBM437";
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
 |* Globals
@@ -432,7 +433,8 @@ nav li a {
       margin: 0 auto;
       /*end li*/
       /*for basket page*/
-      /*end .b_item*/ }
+      /*end .b_item*/
+      /*for ordersum ordersummary*/ }
       .indetail section .product li {
         float: left;
         /*background: orange;*/
@@ -524,6 +526,70 @@ nav li a {
       border: 5px #000; }
 
 /* end indetail*/
+/* for ordersum ordersummary สำหรับ ordersummay เพราะไม่อยากใส่ไว้ใน saas เพราะ selector มันยาว*/
+#odelivery {
+  /*background-color: pink;*/
+  width: 47%;
+  float: left; }
+
+#oItem {
+  /*background-color: yellow;*/
+  margin-left: 15px;
+  width: 50%;
+  float: left; }
+
+#ototal {
+  /*background-color: green;*/
+  clear: both;
+  padding-top: 10px; }
+
+#opayment {
+  width: 98.5%;
+  padding-top: 10px;
+  margin-top: 20px; }
+
+.box {
+  /*background-color: red;*/
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  /*end bcontent*/ }
+  .box .headbox {
+    color: white;
+    font-weight: bold;
+    background-color: #6B6B6B;
+    font-size: 1.25em;
+    padding: 5px 5px 5px 10px; }
+  .box .bcontent {
+    width: 97%;
+    margin: 3px auto;
+    /*background-color: blue;*/
+    color: black;
+    /*for item*/ }
+    .box .bcontent .ipic {
+      width: 21%;
+      /*background-color: pink;*/
+      margin: 1px;
+      float: left; }
+      .box .bcontent .ipic img {
+        width: 100%; }
+    .box .bcontent .iname {
+      width: 52%;
+      /*background-color: pink;*/
+      margin: 1px;
+      float: left;
+      padding-left: 15px; }
+    .box .bcontent .iprice {
+      width: 25%;
+      /*background-color: pink;*/
+      margin: 1px;
+      float: left;
+      padding-left: 10px; }
+  .box .box_btn {
+    width: 97%;
+    margin: 0 auto;
+    /*background-color: black;*/ }
+
+/*end box*/
   /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
 |* Footer

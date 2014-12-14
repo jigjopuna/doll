@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="content-language" content="en, th">
     <meta charset="utf-8">
-	<meta name="keywords" content="ซื้อตุ๊กตาชาววัง ขายตุ๊กตาชาววัง ตุ๊กตาเครื่องปั้นดินเผา บ้านบางเสด็จ" />
+	<meta name="keywords" content="ซื้อตุ๊กตาชาววัง ขายตุ๊กตาชาววัง ตุ๊กตาเครื่องปั้นดินเผา" />
     <meta name="description" content="ตุ๊กตาชาววังเป็นผลิตภัณฑ์พื้นเมือง เป็นสินค้า OTOP ของดีของขึ้นชื่อและมีเสียงของจังหวัดอ่างทอง
 	ตุ๊กตาชาววังผลิตด้วยความปราณีตด้วยฝีมือชาวบ้านที่มีความชำนาญ" />
     <title>ตะกร้าตุ๊กตาชาววัง ผลิตและขายตุ๊กตาชาววังปั้นดินเผา</title>
@@ -95,7 +95,7 @@
 								</div><!--end b_cash-->
 							</div><!--end b_eachItem-->
 							
-							<div style="clear:both;"></div>
+							<div style="clear:both;"></div> 
 							
 							
 						</div><!--end b_item-->
@@ -114,7 +114,7 @@
 									<td align="right">฿<?php echo $row['p_price']*$p_qty;?></td>
 								</tr>
 								<tr>
-									<td align="center" colspan="2"><a class="btn_del">ชำระเงิน</a></td>
+									<td align="center" colspan="2"><a href="content/ordersum.php" class="btn_del">ชำระเงิน</a></td>
 									</tr>
 							</table>
 						

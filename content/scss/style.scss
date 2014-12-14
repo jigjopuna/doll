@@ -441,6 +441,8 @@ nav li a {
 					margin : 0 0 0 15px; 
 					margin-bottom: 10px; border: 1px solid gray; 
 					overflow: hidden; }
+					
+				/*for ordersum ordersummary*/
 			}/*end product*/
 			#map{
 					height:400px;
@@ -451,8 +453,24 @@ nav li a {
 		
 	}/* end indetail*/
 	
-	
-  
+/* for ordersum ordersummary สำหรับ ordersummay เพราะไม่อยากใส่ไว้ใน saas เพราะ selector มันยาว*/	
+#odelivery { /*background-color: pink;*/ width: 47%; float:left; }
+#oItem { /*background-color: yellow;*/ margin-left: 15px; width: 50%; float:left; } 
+#ototal { /*background-color: green;*/ clear: both; padding-top: 10px; }  
+#opayment { width: 98.5%; padding-top: 10px; margin-top: 20px; }  
+
+.box { /*background-color: red;*/  margin-bottom: 10px; border: 1px solid gray;
+	.headbox { color: white; font-weight: bold; background-color: #6B6B6B; font-size: 1.25em; padding: 5px 5px 5px 10px; }
+	.bcontent { width: 97%; margin: 3px auto; /*background-color: blue;*/ color: black;
+		/*for item*/
+		.ipic { width: 21%; /*background-color: pink;*/ margin: 1px; float: left; 
+			img { width: 100%; }
+		}
+		.iname { width: 52%; /*background-color: pink;*/ margin: 1px; float: left; padding-left: 15px; }
+		.iprice { width: 25%; /*background-color: pink;*/ margin: 1px; float: left; padding-left: 10px; }
+	} /*end bcontent*/
+	.box_btn { width: 97%; margin: 0 auto; /*background-color: black;*/ }
+}/*end box*/
   
   
   /* ------------------------------------------------------------ *\

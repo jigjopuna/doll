@@ -45,6 +45,15 @@
       margin: auto;
       margin-left: 10px; }
 
+  #odelivery {
+    width: 98% !important;
+    float: none !important; }
+
+  #oItem {
+    margin-left: 0 !important;
+    width: 98%;
+    float: none !important; }
+
   /*|* ------------------------------------------------------------ *|
   |* Basket Page
   |* ------------------------------------------------------------ *|
