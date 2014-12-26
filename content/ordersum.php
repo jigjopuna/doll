@@ -48,7 +48,7 @@
     <div id="wrapper">
       <?php include('../include/inc_contact_content.php');?>
       <header>
-			<?php include('../include/inc_menu.php');?>
+			<?php include('../include/inc_menu_pdetail.php');?>
       </header>
 		<div class="detail">
 			<div class="indetail">			
@@ -68,7 +68,8 @@
 											หมู่บ้านสรรเสริญวิลล่า 190/70 ม.10 ต.ดอนตะโก อ.เมือง จ.ราชบุรี 70000
 										</div><!--end bcontent-->
 										<div class="box_btn">	
-											เพิ่ม/แก้ไขปลายทางจัดส่ง
+											<a class="addaddress" href="http://www.google.co.th">เพิ่ม/แก้ไขปลายทางจัดส่ง</a>
+											<br>&nbsp;&nbsp;
 										</div><!--end box_btn-->
 									</div><!--end box-->
 									
@@ -81,8 +82,6 @@
 											<input type="radio" name="mail" value="EMS">EMS <br>
 											<input type="radio" name="mail" value="register">ลงทะเบียน
 										</div><!--end bcontent-->
-										<div class="box_btn">
-										</div><!--end box_btn-->
 									</div><!--end box-->
 								</div><!---end obox-->
 							</div><!--- end odelivery-->
@@ -95,15 +94,15 @@
 										<div class="bcontent" style="overflow: hidden;">
 											<div class="eachItem" style="clear:both;">
 												<div class="ipic"><img src="images/home/01001_child.jpg"></div>
-												<div class="iname"><span>ควายตัวเมีย</span><br><span>20 บาท</span></div>
-												<div class="iprice">icolumn</div>
+												<div class="iname"><span>พระอภัยมณีเป่าชลุ่ย</span><br><span>20 x 5 </span></div>
+												<div class="iprice">฿200</div>
 											</div><!--end eachItem-->
 											
-											<div class="eachItem" style="clear:both;">
+											<!--<div class="eachItem" style="clear:both;">
 												<div class="ipic"><img src="images/home/01001_child.jpg"></div>
 												<div class="iname">icolumn</div>
 												<div class="iprice">icolumn</div>
-											</div><!--end eachItem-->
+											</div>--><!--end eachItem-->
 											
 										</div><!--end bcontent-->
 									</div><!--end box-->
@@ -113,15 +112,15 @@
 							<table style="width: 97%; margin: 0 auto;">
 								<tr>
 									<td align="left">ราคาสินค้ารวม</td>
-									<td align="right">ototal</td>
+									<td align="right">฿200</td>
 								</tr>
 								<tr>
 									<td align="left">ค่าขนส่ง</td>
-									<td align="right">ototal</td>
+									<td align="right">฿50</td>
 								</tr>
 								<tr>
 									<td align="left">ราคารวมทั้งหมด</td>
-									<td align="right">ototal</td>
+									<td align="right">฿250</td>
 								</tr> 
 							</table>
 						</div><!--- end ototal-->
@@ -130,33 +129,34 @@
 								<div class="headbox">	
 											ช่องทางการชำระเงิน
 								</div><!--end headbox-->
-										
-								<div class="bcontent">
-									<table style="width: 97%; margin: 0 auto; border: 1px solid #E6E6E6">
-										<tbody><tr>
+									<table style="font-weight:bold;" class="table table-bordered">
+											<tbody><tr>
 												<th>หมายเลขบัญชี</th>
 												<th>ธนาคาร</th>
 												<th>ชื่อบัญชี</th>
 											</tr>
+											<!--<tr style="color:#002f94;">
+												<td>008-0-04976-1</td>
+												<td><img alt="ธนาคารกรุงไทย" src="images/logo/ktb.png" title="ธนาคารกรุงเทพ"> ธนาคารกรุงไทย สาขาปทุมวัน</td>
+												<td>นาย ภูริชญ์ โชคอุตสาหะ</td>
+											</tr>-->
 											<tr style="color:#002f94;">
 												<td>101-888031-8</td>
-												<td><img alt="ธนาคารกรุงเทพ" src="images/logo/bbl.png" title="ธนาคารกรุงเทพ"> ธนาคารกรุงเทพ สาขาสำนักงานใหญ่สีลม</td>
+												<td><img alt="ธนาคารกรุงเทพ" src="images/logo/bbl.png" title="ธนาคารกรุงเทพ"> ธนาคารกรุงเทพ สาขาสำนักงานใหญ่ สีลม</td>
 												<td>นาย ภูริชญ์ โชคอุตสาหะ</td>
 											</tr>
-											<tr style="color:#4f2a81;">
-												<td>008-0-04976-1</td>
-												<td><img alt="ธนาคารกรุงไทย" src="images/logo/ktb.png" title="ธนาคารกรุงไทย"> ธนาคารกรุงไทย สาขาปทุมวัน</td>
-												<td>นาย ภูริชญ์ โชคอุตสาหะ</td>
-											</tr>
-											<tr style="color:#097405;">
+											<!--<tr style="color:#097405;">
 												<td>617-2-12903-8</td>
 												<td><img alt="ธนาคารกสิกรไทย" src="images/logo/kbank.png" title="ธนาคารกสิกรไทย"> ธนาคารกสิกรไทย สาขาออลซีซั่นส์ เพลส</td>
 												<td>นาย ภูริชญ์ โชคอุตสาหะ</td>
+											</tr>-->
+											<tr>
+												<td colspan="3" align="center"><h2 style="color:#800;">>>เมลหรือโทรมาคอนเฟิร์มก่อนโอนเงินนะครับ<<</h2></td>
 											</tr>
 											
 										</tbody>
 									</table>
-								</div><!--end bcontent-->
+								
 							</div><!--end box-->
 						</div><!--- end opayment-->
 					</div><!-----end product----->

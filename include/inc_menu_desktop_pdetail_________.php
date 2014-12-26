@@ -8,8 +8,6 @@
 			<a href="#">&nbsp;&nbsp; หน้าแรก |&nbsp;&nbsp;</a>
 			<a href="">ตุ๊กตาดินเผา | &nbsp;&nbsp;</a>
 			<a href="">ตุ๊กตาไม้ |&nbsp;&nbsp;</a>
-			<a href="">ตุ๊กตาชุด |&nbsp;&nbsp;</a>
-			<a href="">ตุ๊กตาอื่นๆ | &nbsp;&nbsp;</a>
 			<a href="contact.php">ติดต่อซื้อ | &nbsp;&nbsp;</a>
 			<a href="#">การชำระเงิน | &nbsp;&nbsp;</a>
 			<a href="#">บทความ/ความรู้ |&nbsp;&nbsp;</a>

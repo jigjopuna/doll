@@ -54,6 +54,16 @@
     width: 98%;
     float: none !important; }
 
+  .table-bordered img {
+    display: block;
+    float: none !important;
+    margin-left: auto;
+    margin-right: auto; }
+
+  #sitemap .col {
+    width: 98%; }
+
+  /*end sitemap*/
   /*|* ------------------------------------------------------------ *|
   |* Basket Page
   |* ------------------------------------------------------------ *|

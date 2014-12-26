@@ -91,6 +91,29 @@ button {
   text-decoration: none;
 }
 
+.addaddress {
+		  background: #3498db;
+		  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+		  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+		  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+		  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+		  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+		  font-family: Arial;
+		  color: #ffffff;
+		  font-size: 16px;
+		  padding: 5px 50px 5px 50px;
+		  text-decoration: none;
+		}
+
+		.addaddress:hover {
+		  background: #3cb0fd;
+		  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+		  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+		  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+		  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+		  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+		  text-decoration: none;
+		}
 /*http://css3buttongenerator.com/*/
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
@@ -469,9 +492,49 @@ nav li a {
 		.iname { width: 52%; /*background-color: pink;*/ margin: 1px; float: left; padding-left: 15px; }
 		.iprice { width: 25%; /*background-color: pink;*/ margin: 1px; float: left; padding-left: 10px; }
 	} /*end bcontent*/
-	.box_btn { width: 97%; margin: 0 auto; /*background-color: black;*/ }
+	.box_btn { width: 97%; margin: 5px 0 -20px 10px; }
 }/*end box*/
-  
+
+.table-bordered {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-collapse: separate;
+	border-color: #ddd #ddd #ddd -moz-use-text-color;
+	border-image: none;
+	border-radius: 4px;
+	border-style: solid solid solid none;
+	border-width: 1px 1px 1px 0;
+	margin-bottom: 20px;
+	width: 100%;
+	img {
+		border: 0 none;
+		height: auto;
+		max-width: 100%;
+		vertical-align: middle;
+		}
+	th, td { 
+		border-left: 1px solid #ddd; 
+		border-top: 1px solid #ddd;
+		line-height: 20px;
+		padding: 8px;
+		text-align: left;
+		vertical-align: middle;
+	}
+}/*table-bordered*/
+									
+#sitemap { width: 100%; 
+	.col { width: 49%; background-color: #EEE; float:left; margin-left: 5px; 
+		.sbox { width: 48%; float:left; margin: 5px 0 0 5px; padding-left: 10px; line-height: 2em;
+			ul{ font-size: 1.2em; 
+				li { padding-left: 10px; font-size: 0.8em;  }
+			}/*end ul*/
+		}/*end sbox*/
+	} /*end col*/
+	.col:last-child { background-color: #c8c8c8; }
+}/*end sitemap*/									
+									
   
   /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
@@ -514,24 +577,6 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
 
     #slides .slidesjs-navigation {
       margin-top:5px;

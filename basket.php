@@ -114,7 +114,7 @@
 									<td align="right">฿<?php echo $row['p_price']*$p_qty;?></td>
 								</tr>
 								<tr>
-									<td align="center" colspan="2"><a href="content/ordersum.php" class="btn_del">ชำระเงิน</a></td>
+									<td align="center" colspan="2"><a href="content/ordersum.php" class="addaddress">ชำระเงิน</a></td>
 									</tr>
 							</table>
 						
@@ -133,7 +133,7 @@
 									</a>
 								</div>
                                 <div class="product_detail"> 
-									<a href="" target="blank"><span class="descript">การแต่งกายผู้หญิงไทย ๓ คน</span><br> <span class="price"> ราคา ๕o บาท <br>รหัสสินค้า : 00983</span></a><br><a class="btn">ใส่ตะกร้า</a>
+									<a href="" target="blank"><span class="descript">การแต่งกายผู้หญิงไทย ๓ คน</span></a><br> <span class="price"> ราคา ๕o บาท <br>รหัสสินค้า : 00983</span><br><a class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
 							
@@ -143,7 +143,7 @@
 									</a>
 								</div>
                                 <div class="product_detail"> 
-									<a href="" target="blank"><span class="descript">ตุ๊กตาการแต่งกายคุณตา คุณยาย</span><br> <span class="price"> ราคา ๓oo บาท <br>รหัสสินค้า : 01106</span></a><br><a class="btn">ใส่ตะกร้า</a>
+									<a href="" target="blank"><span class="descript">ตุ๊กตาการแต่งกายคุณตา คุณยาย</span></a><br> <span class="price"> ราคา ๓oo บาท <br>รหัสสินค้า : 01106</span><br><a class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
 							
@@ -153,7 +153,7 @@
 									</a>
 								</div>
                                 <div class="product_detail"> 
-									<a href="" target="blank"><span class="descript">ตุ๊กตาการแต่งกายคุณตา คุณยาย</span><br> <span class="price"> ราคา ๓oo บาท <br>รหัสสินค้า : 01108</span></a><br><a class="btn">ใส่ตะกร้า</a>
+									<a href="" target="blank"><span class="descript">ตุ๊กตาการแต่งกายคุณตา คุณยาย</span></a><br> <span class="price"> ราคา ๓oo บาท <br>รหัสสินค้า : 01108</span><br><a class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
                         </ul>

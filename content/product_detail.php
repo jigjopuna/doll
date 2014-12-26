@@ -12,9 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
 	<meta http-equiv="content-language" content="en, th">
-	<meta name="keywords" content="แหล่งขายตุ๊กตาดินเผา ดินปั้นตุ๊กตา ตุ๊กตาดินเผา" />
-    <meta name="description" content="ตุ๊กตาชาววังบ้านบางเสด็จเป็นแหล่งขายตุ๊กตาดินเผา เรือขายผลไม้และเครื่องปั้นดินเผา" />
-    <title>เรือขายผลไม้ดินเผาเป็นสินค้า handmade 100%</title>
+	<meta name="keywords" content="ซื้อตุ๊กตาชาววัง แหล่งขายตุ๊กตาดินเผา " />
+    <meta name="description" content="ซื้อขายตุ๊กตาชาววังพร้อมส่งกรุงเทพและต่างจัดหวัด ตุ๊กตาชาววังอ่างทอง OTOP" />
+    <title>ซื้อตุ๊กตาชาววัง  <?php echo $row['p_name']; ?></title>
 	<link rel="shortcut icon" href="images/logo/favicon.png">
     <link type="text/css" rel="stylesheet" href="css/base.css">
     <link type="text/css" rel="stylesheet" href="css/style.css">  
@@ -51,13 +51,14 @@
 			$('#form1').submit();
 		}
     </script>
+	
  </head>
   <body>
     <?php include('../include/inc_menu_mobile_pdetail.php');?>
     <div id="wrapper">
-      <?php include('../include/inc_contact.php');?>
+      <?php include('../include/inc_contact_content.php');?>
       <header>
-			<?php include('../include/inc_menu_desktop_pdetail.php');?>
+			<?php include('../include/inc_menu_pdetail.php');?>
       </header>
 		<div class="detail">
 			<div class="indetail">	
