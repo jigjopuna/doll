@@ -376,11 +376,18 @@ body.pmb-open #wrapper {
 		
 header { width: 100%; /*background: olive;*/ clear: both;}
 #main_menu { width: 100%; background: orange; margin-bottom: 10px;
-	.buttons{ display:none;}
-	.menu_desktop a:link{ color: black; }
-	.menu_desktop a:visited{ color: black; }
-	.menu_desktop a:active{ color: green; }
-	.menu_desktop a:hover{ color: gray; }
+	.buttons { display: none; }
+	.menu_desktop { overflow: hidden;
+		li {
+			float: left;
+			padding: 7px;
+			color: black;
+			&:hover { 
+				background-color: white;
+				color: gray;
+			}
+		}
+	} 
 }
 #corousel { width: 100%; margin: auto;}
 	
@@ -676,6 +683,3 @@ footer{
     .navbar {
       overflow: hidden
     }
-
-
-    

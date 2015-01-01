@@ -1,7 +1,16 @@
 @media all and (max-width: 800px) { 
 	#wrapper{ width:97% !important; margin: auto;  }
-	#main_menu { background: #FFF; 
-		.buttons{ display: inline; float: left; width:100%; background: orange;}
+	#main_menu { background: #FFF;
+		.buttons{
+			display: block;
+			float: none;
+			width: 100%;
+			background: orange;
+			padding: 5px 0 5px 5px;
+		}
+		.menu_desktop{
+			display:none;
+		}
     }
 	.indetail { 
 		section { 

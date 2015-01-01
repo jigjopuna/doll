@@ -6,10 +6,13 @@
   #main_menu {
     background: #FFF; }
     #main_menu .buttons {
-      display: inline;
-      float: left;
+      display: block;
+      float: none;
       width: 100%;
-      background: orange; }
+      background: orange;
+      padding: 5px 0 5px 5px; }
+    #main_menu .menu_desktop {
+      display: none; }
 
   .indetail {
     /*end section*/ }

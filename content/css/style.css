@@ -382,14 +382,15 @@ header {
   margin-bottom: 10px; }
   #main_menu .buttons {
     display: none; }
-  #main_menu .menu_desktop a:link {
-    color: black; }
-  #main_menu .menu_desktop a:visited {
-    color: black; }
-  #main_menu .menu_desktop a:active {
-    color: green; }
-  #main_menu .menu_desktop a:hover {
-    color: gray; }
+  #main_menu .menu_desktop {
+    overflow: hidden; }
+    #main_menu .menu_desktop li {
+      float: left;
+      padding: 7px;
+      color: black; }
+      #main_menu .menu_desktop li:hover {
+        background-color: white;
+        color: gray; }
 
 #corousel {
   width: 100%;

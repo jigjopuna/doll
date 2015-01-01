@@ -4,15 +4,15 @@
 					
 	</div>
     <div class="menu_desktop">
-		<div>
-			<a href="../index.php">&nbsp;&nbsp; หน้าแรก |&nbsp;&nbsp;</a>
-			<a href="">ตุ๊กตาดินเผา | &nbsp;&nbsp;</a>
-			<a href="">ตุ๊กตาไม้ |&nbsp;&nbsp;</a>
-			<a href="../contact.php">ติดต่อซื้อ | &nbsp;&nbsp;</a>
-			<a href="#">การชำระเงิน | &nbsp;&nbsp;</a>
-			<a href="#">บทความ/ความรู้ |&nbsp;&nbsp;</a>
-			<a href="article/history.html">ประวัติ | &nbsp;&nbsp;</a>
-			<a href="#">แผนผังเว็บไซด์</a>
-		</div>
+		<ul>
+			<a href="../index.php"><li>หน้าแรก</li></a>
+			<a href="#"><li>ตุ๊กตาดินเผา</li></a>
+			<a href="#"><li>ตุ๊กตาไม้</li></a>
+			<a href="../contact.php"><li>ติดต่อซื้อ</li></a>
+			<a href="#"><li>การชำระเงิน</li></a>
+			<a href="#"><li>บทความ/ความรู้</li></a>
+			<a href="article/history.php"><li>ประวัติ</li></a>
+		</ul>
+		
     </div>
-</div><!-----end main_menu----->
+</div><!--end main_menu-->

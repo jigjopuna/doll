@@ -11,5 +11,5 @@
 		<li><a href="#">ตุ๊กตาอื่นๆ</a></li>
 		<li><a href="../contact.php">ติดต่อซื้อ</a></li>
 		<li><a href="#">บทความ/ความรู้</a></li>
-		<li><a href="article/history.html">ประวัติ</a></li>
+		<li><a href="article/history.php">ประวัติ</a></li>
 </nav>
