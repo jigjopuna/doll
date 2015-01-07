@@ -8,70 +8,148 @@
 
 <url>
   <loc>http://chowwang.com/</loc>
-  <lastmod>2014-12-10T07:58:07+00:00</lastmod>
 </url>
 <url>
-  <loc>http://chowwang.com/index.html</loc>
-  <lastmod>2014-12-10T07:58:07+00:00</lastmod>
+  <loc>http://chowwang.com/index.php</loc>
 </url>
 <url>
-  <loc>http://chowwang.com/content/article/history.html</loc>
-  <lastmod>2014-12-06T08:10:14+00:00</lastmod>
+  <loc>http://chowwang.com/contact.php</loc>
 </url>
 <url>
-  <loc>http://chowwang.com/content/goods/aec/singapore_set.html</loc>
-  <lastmod>2014-12-10T07:58:25+00:00</lastmod>
+  <loc>http://chowwang.com/content/article/history.php</loc>
 </url>
 <url>
-  <loc>http://chowwang.com/content/goods/aec/malaysia_set.html</loc>
-  <lastmod>2014-12-10T08:04:31+00:00</lastmod>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01230</loc>
 </url>
 <url>
-  <loc>http://chowwang.com/content/goods/aec/indonesia_set.html</loc>
-  <lastmod>2014-12-10T07:58:22+00:00</lastmod>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01231</loc>
 </url>
 <url>
-  <loc>http://chowwang.com/content/goods/aec/myanmar_set.html</loc>
-  <lastmod>2014-12-10T07:58:23+00:00</lastmod>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01233</loc>
 </url>
 <url>
-  <loc>http://chowwang.com/content/goods/aec/cambodia_set.html</loc>
-  <lastmod>2014-12-10T07:58:20+00:00</lastmod>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01234</loc>
 </url>
 <url>
-  <loc>http://chowwang.com/content/goods/aec/loas_set.html</loc>
-  <lastmod>2014-12-10T07:58:22+00:00</lastmod>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01235</loc>
 </url>
 <url>
-  <loc>http://chowwang.com/content/goods/aec/philippines_set.html</loc>
-  <lastmod>2014-12-10T07:58:24+00:00</lastmod>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01237</loc>
 </url>
 <url>
-  <loc>http://chowwang.com/content/goods/aec/brunie_set.html</loc>
-  <lastmod>2014-12-10T07:58:20+00:00</lastmod>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01238</loc>
 </url>
 <url>
-  <loc>http://chowwang.com/content/goods/aec/vietnam_set.html</loc>
-  <lastmod>2014-12-10T07:58:25+00:00</lastmod>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01239</loc>
 </url>
 <url>
-  <loc>http://chowwang.com/content/goods/tradition/massage.html</loc>
-  <lastmod>2014-12-02T00:46:49+00:00</lastmod>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01240</loc>
 </url>
 <url>
-  <loc>http://chowwang.com/content/goods/sport/muaythai.html</loc>
-  <lastmod>2014-12-01T13:58:40+00:00</lastmod>
+  <loc>http://chowwang.com/content/product_type.php?p_id=2</loc>
 </url>
 <url>
-  <loc>http://chowwang.com/content/goods/sport/muaythai01.html</loc>
-  <lastmod>2014-12-01T13:58:42+00:00</lastmod>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=00976</loc>
 </url>
 <url>
-  <loc>http://chowwang.com/content/goods/wood/boat-fruit.html</loc>
-  <lastmod>2014-12-05T02:06:04+00:00</lastmod>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=00977</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=00979</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=00983</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01106</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01108</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_type.php?p_id=9</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01004</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01103</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01114</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_type.php?p_id=8</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01029</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01026</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01010</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_type.php?p_id=6</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01045</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01048</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01001</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_type.php?p_id=7</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01113</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01119</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01099</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01121</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01155</loc>
 </url>
 <url>
   <loc>http://chowwang.com/content/goods/wood/boat-monk.html</loc>
   <lastmod>2014-12-05T01:59:05+00:00</lastmod>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=00807</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01288</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01481</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01482</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01290</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01600</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/product_detail.php?p_id=01601</loc>
+</url>
+<url>
+  <loc>http://chowwang.com/content/goods/wood/boat-fruit.html</loc>
+  <lastmod>2014-12-05T02:06:04+00:00</lastmod>
 </url>
 </urlset>

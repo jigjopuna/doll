@@ -272,7 +272,7 @@
 				
 				<section> 
                 	<div class="product">
-                    	<h1><strong><U>ตุ๊กตาวรรณคดีและประเพณีไทย</U></strong></h1>
+                    	<h1><strong><U><a href="content/product_type.php?p_id=9">ตุ๊กตาวรรณคดีไทย</a></U></strong></h1>
                         <span>หมวดวรรณคดี</span> 
                     	<ul style="margin-top:10px;">
                         	<li>
@@ -349,7 +349,7 @@
 				
 				<section> 
                 	<div class="product">
-                    	<h1><strong><U>ตุ๊กตาเทศกาลประจำปี</U></strong></h1>
+                    	<h1><strong><U><a href="content/product_type.php?p_id=6">ตุ๊กตาเทศกาลประจำปี</a></U></strong></h1>
                         <span>หมวดเทศกาลไทย</span>
                     	<ul style="margin-top:10px;">
 							<li>
@@ -386,7 +386,7 @@
 				
 				<section> 
                 	<div class="product">
-                    	<h1><strong><U>เรือต่างๆ และตุ๊กตาทำด้วยไม้</U></strong></h1>
+                    	<h1><strong><U><a href="content/product_type.php?p_id=7">ตุ๊กตาทำด้วยไม้</a></U></strong></h1>
                         <span>หมวดตุ๊กตาไม้</span>
                     	<ul style="margin-top:10px;">
                         	<li>

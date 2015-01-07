@@ -86,7 +86,7 @@
 				
 				<section>
 					<div class="p_img">
-						<a class="example-image-link" href="images/large/<?php echo $row['p_image'];?>" data-lightbox="01230-AEC-SP"  data-title="<?php echo $row['p_name']?>"><img class="example-image" src="images/large/<?php echo $row['p_image'].$t;?>" alt="<?php echo $row['p_name']?>" />
+						<a class="example-image-link" href="images/large/<?php echo $row['p_image'].$t;?>" data-lightbox="01230-AEC-SP"  data-title="<?php echo $row['p_name']?>"><img class="example-image" src="images/large/<?php echo $row['p_image'].$t;?>" alt="<?php echo $row['p_name']?>" />
 						</a>
 					</div>		
 					<div class="p_detail">
@@ -143,7 +143,7 @@
 						?>
                         	<li>
                             	<div class="product_image">
-									<a class="example-image-link" href="images/large/<?php echo $row_ptype['p_image'];?>" data-lightbox="<?php echo $row_ptype['p_name'];?>"  data-title="<a href='product_detail.php?p_id=<?php echo $row_ptype[p_code]?>'><?php echo $row_ptype['p_name'];?> ราคา <?php echo $row_ptype['p_price'];?> บาท</a>"><img class="example-image" src="images/home/<?php echo $row_ptype['p_image'];?>" alt="เรือพระบิณฑบาตร ทำจากเครื่องปั้นดินเผา ของฝาก" />
+									<a class="example-image-link" href="images/large/<?php echo $row_ptype['p_image'].$t;?>" data-lightbox="<?php echo $row_ptype['p_name'];?>"  data-title="<a href='product_detail.php?p_id=<?php echo $row_ptype[p_code]?>'><?php echo $row_ptype['p_name'];?> ราคา <?php echo $row_ptype['p_price'];?> บาท</a>"><img class="example-image" src="images/home/<?php echo $row_ptype['p_image'].$t;?>" alt="เรือพระบิณฑบาตร ทำจากเครื่องปั้นดินเผา ของฝาก" />
 									</a>
 									
 								</div>

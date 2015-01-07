@@ -79,7 +79,7 @@
 						?>
                         	<li>
                             	<div class="product_image">
-									<a class="example-image-link" href="images/large/<?php echo $row['p_image'];?>" data-lightbox="<?php echo $row['p_name'];?>"  data-title="<a href='product_detail.php?p_id=<?php echo $row[p_code]?>'><?php echo $row['p_name'];?> ราคา <?php echo $row['p_price'];?> บาท</a>"><img class="example-image" src="images/home/<?php echo $row['p_image'];?>" alt="เรือพระบิณฑบาตร ทำจากเครื่องปั้นดินเผา ของฝาก" />
+									<a class="example-image-link" href="images/large/<?php echo $row['p_image'].'.jpg';?>" data-lightbox="<?php echo $row['p_name'];?>"  data-title="<a href='product_detail.php?p_id=<?php echo $row[p_code]?>'><?php echo $row['p_name'];?> ราคา <?php echo $row['p_price'];?> บาท</a>"><img class="example-image" src="images/home/<?php echo $row['p_image'].'.jpg';?>" alt="<?php echo $row['p_name'];?>" />
 									</a>
 									
 								</div>
