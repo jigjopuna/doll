@@ -168,43 +168,19 @@
                             </li>
 							<li>
                             	<div class="product_image">
-									<a class="example-image-link" href="content/images/large/01238-AEC-PLP.jpg" data-lightbox="piliphin_set"  data-title="<a href='content/product_detail.php?p_id=01238'>ตุ๊กตาอาเซียน ฟิลิปปินส์ </a>"><img class="example-image" src="content/images/home/01238-AEC-PLP.jpg" alt="ตุ๊กตาอาอาเซียน ฟิลิปปินส์" />
+									<a href="content/product_type.php?p_id=3"><img class="example-image" src="content/images/more.jpg" />
 									</a>
 								</div>
-                                <div class="product_detail"> 
-									<a href="content/product_detail.php?p_id=01238" target="blank"><span class="descript">ตุ๊กตาอาเซียน ฟิลิปปินส์</span></a><br> <span class="price"> ราคา ๕oo บาท <br>รหัสสินค้า : 01238</span><br><a href="content/product_detail.php?p_id=01238" class="btn">ใส่ตะกร้า</a>
-								</div>
+                                
                             </li>
-							<li>
-                            	<div class="product_image">
-									<a class="example-image-link" href="content/images/large/01239-AEC-BN.jpg" data-lightbox="buni_set"  data-title="<a href='content/product_detail.php?p_id=01239'>ตุ๊กตาอาเซียน บรูไน </a>"><img class="example-image" src="content/images/home/01239-AEC-BN.jpg" alt="ตุ๊กตาอาอาเซียน บรูไน" />
-									</a>
-								</div>
-                                <div class="product_detail"> 
-									<a href="content/product_detail.php?p_id=01239" target="blank"><span class="descript">ตุ๊กตาอาเซียน บรูไน</span></a><br> <span class="price"> ราคา ๕oo บาท <br>รหัสสินค้า : 01239</span><br><a href="content/product_detail.php?p_id=01239" class="btn">ใส่ตะกร้า</a>
-								</div>
-                            </li>
-							<li>
-                            	<div class="product_image">
-									<a class="example-image-link" href="content/images/large/01240-AEC-WN.jpg" data-lightbox="wied_set"  data-title="<a href='content/product_detail.php?p_id=01240'>ตุ๊กตาอาเซียน เวียดนาม </a>"><img class="example-image" src="content/images/home/01240-AEC-WN.jpg" alt="ตุ๊กตาอาอาเซียน เวียดนาม" />
-									</a>
-								</div>
-                                <div class="product_detail"> 
-									<a href="content/product_detail.php?p_id=01240" target="blank"><span class="descript">ตุ๊กตาอาเซียน เวียดนาม</span></a><br> <span class="price"> ราคา ๕oo บาท <br>รหัสสินค้า : 01240</span><br><a href="content/product_detail.php?p_id=01240" class="btn">ใส่ตะกร้า</a>
-								</div>
-                            </li>
-							<!--<li>
-                            	<div class="product_image">
-									<a href="http://www.google.com"><img src="content/images/more.jpg" /></a>
-								</div>
-                            </li>-->
+							
                         </ul>
-                    </div><!-----end product----->
-                </section><!-----end section1----->	
+                    </div><!--end product-->
+                </section><!--end section1-->	
 		
 				<section> 
                 	<div class="product">
-                    	<h1><strong><U><a href="content/product_type.php?p_id=2">ตุ๊กตาวัฒนธรรมและการแต่งกาย</a></U></strong></h1>
+                    	<h1><strong><U><a href="content/product_type.php?p_id=2">ตุ๊กตาวัฒนธรรมและการแต่งกาย(10)</a></U></strong></h1>
                     	<ul style="margin-top:10px;">
                         	<li>
                             	<div class="product_image">
@@ -262,9 +238,16 @@
 									<a href="content/product_detail.php?p_id=01108" target="blank"><span class="descript">ตุ๊กตาการแต่งกายคุณตา คุณยาย</span></a><br> <span class="price"> ราคา ๓oo บาท <br>รหัสสินค้า : 01108</span><br><a href="content/product_detail.php?p_id=01108" class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
+							<li>
+                            	<div class="product_image">
+									<a href="content/product_type.php?p_id=2"><img class="example-image" src="content/images/more.jpg" />
+									</a>
+								</div>
+                                
+                            </li>
                         </ul>
-                    </div><!-----end product----->
-                </section><!-----end section2----->	
+                    </div><!--end product-->
+                </section><!--end section2-->	
 				
 				
 				
@@ -301,6 +284,13 @@
                                 <div class="product_detail"> 
 									<a href="product_detail.php?p_id=01114" target="blank"><span class="descript">ตุ๊กตาถวายภัตตหารพระภิกษุ</span></a><br> <span class="price"> ราคา ๓oo บาท <br>รหัสสินค้า : 01114</span><br><a href="content/product_detail.php?p_id=01114" class="btn">ใส่ตะกร้า</a>
 								</div>
+                            </li>
+							<li>
+                            	<div class="product_image">
+									<a href="content/product_type.php?p_id=9"><img class="example-image" src="content/images/more.jpg" />
+									</a>
+								</div>
+                                
                             </li>
 							
                            
@@ -342,6 +332,13 @@
 									<a href="product_detail.php?p_id=01010" target="blank"><span class="descript">ตุ๊กตาเด็กเล่นเป่ากบ</span></a><br> <span class="price"> ราคา ๔o บาท <br>รหัสสินค้า : 01010</span><br><a href="content/product_detail.php?p_id=01010" class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
+							<li>
+                            	<div class="product_image">
+									<a href="content/product_type.php?p_id=8"><img class="example-image" src="content/images/more.jpg" />
+									</a>
+								</div>
+                                
+                            </li>
                             
                         </ul>
                     </div><!-----end product----->
@@ -380,9 +377,51 @@
 									<a href="content/product_detail.php?p_id=01001" target="blank"><span class="descript">ตุ๊กตาเด็กลอยกระทง</span></a><br> <span class="price"> ราคา ๓o บาท <br>รหัสสินค้า : 01001</span><br><a href="content/product_detail.php?p_id=01001" class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
+							<li>
+                            	<div class="product_image">
+									<a href="content/product_type.php?p_id=6"><img class="example-image" src="content/images/more.jpg" />
+									</a>
+								</div>
+                                
+                            </li>
                         </ul>
                     </div><!-- end product --->
                 </section><!-- end section3 -->	
+				
+				
+				<section> 
+                	<div class="product">
+                    	<h1><strong><U><a href="content/product_type.php?p_id=10">เครื่องดนตรีไทย</a></U></strong></h1>
+                    	<ul style="margin-top:10px;">
+                        	<li>
+                            	<div class="product_image">
+									<a class="example-image-link" href="content/images/large/01488-thaimusic.jpg" data-lightbox="ผู้หญิงตีขิม"  data-title="<a href='content/product_detail.php?p_id=01488'>ผู้หญิงตีขิม</a>"><img class="example-image" src="content/images/home/01488-thaimusic.jpg" alt="ผู้หญิงตีขิม" />
+									</a>
+								</div>
+                                <div class="product_detail"> 
+									<a href="content/product_detail.php?p_id=01488" target="blank"><span class="descript">ผู้หญิงตีขิม</span></a><br> <span class="price"> ราคา 69 บาท <br>รหัสสินค้า : 01488</span><br><a href="content/product_detail.php?p_id=01488" class="btn">ใส่ตะกร้า</a>
+								</div>
+                            </li>
+							<li>
+                            	<div class="product_image">
+									<a class="example-image-link" href="content/images/large/01487-thaimusic.jpg" data-lightbox="ผู้หญิงตีกลองยาว"  data-title="<a href='content/product_detail.php?p_id=01487'>ผู้หญิงตีกลองยาว</a>"><img class="example-image" src="content/images/home/01487-thaimusic.jpg" alt="ผู้หญิงตีกลองยาว" />
+									</a>
+								</div>
+                                <div class="product_detail"> 
+									<a href="content/product_detail.php?p_id=01487" target="blank"><span class="descript">ผู้หญิงตีกลองยาว</span></a><br> <span class="price"> ราคา 79 บาท <br>รหัสสินค้า : 01487</span><br><a href="content/product_detail.php?p_id=01487" class="btn">ใส่ตะกร้า</a>
+								</div>
+                            </li>
+							
+							<li>
+                            	<div class="product_image">
+									<a href="content/product_type.php?p_id=2"><img class="example-image" src="content/images/more.jpg" />
+									</a>
+								</div>
+                                
+                            </li>
+                        </ul>
+                    </div><!--end product-->
+                </section><!--end section2-->	
 				
 				<section> 
                 	<div class="product">
@@ -446,7 +485,13 @@
 									<a href="content/goods/wood/boat-monk.html" target="blank"><span class="descript">เรือพระบิณฑบาตร</span></a><br> <span class="price"> ราคา ๙o บาท <br>รหัสสินค้า : 00807 </span><br><a href="content/product_detail.php?p_id=00807" class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
-							
+							<li>
+                            	<div class="product_image">
+									<a href="content/product_type.php?p_id=7"><img class="example-image" src="content/images/more.jpg" />
+									</a>
+								</div>
+                                
+                            </li>
 							
                         </ul>
                     </div><!--end product-->

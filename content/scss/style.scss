@@ -447,7 +447,9 @@ nav li a {
 					}/*end product_detail*/
 				}/*end li*/
 				h1 { line-height: 2em; }
-				.texts { width: 75%; margin: auto; }
+				.texts { width: 75%; margin: auto; 
+					img { width: 100%; }
+				}
 				
 				/*for basket page*/
 				.b_item {  width: 63%; float:left; 

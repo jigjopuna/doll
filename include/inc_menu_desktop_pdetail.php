@@ -13,7 +13,7 @@
 			<a href="contact.php">ติดต่อซื้อ | &nbsp;&nbsp;</a>
 			<a href="#">การชำระเงิน | &nbsp;&nbsp;</a>
 			<a href="#">บทความ/ความรู้ |&nbsp;&nbsp;</a>
-			<a href="content/article/history.html">ประวัติ | &nbsp;&nbsp;</a>
+			<a href="content/article/history.php">ประวัติ | &nbsp;&nbsp;</a>
 			<a href="#">แผนผังเว็บไซด์</a>
 		</div>
     </div>
