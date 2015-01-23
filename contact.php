@@ -8,12 +8,8 @@
     <meta name="description" content="ติดต่อซื้อตุ๊กตาชาววังในกรุงเทพมหานคร ได้ที่นี่" />
     <title>ติดต่อซื้อตุ๊กตาชาววัง ในกรุงเทพ</title>
 	<link rel="shortcut icon" href="content/images/logo/favicon.png">
-    <link type="text/css" rel="stylesheet" href="content/css/base.css">
-    <link type="text/css" rel="stylesheet" href="content/css/style.css">  
-	<link type="text/css" rel="stylesheet" href="content/css/media_query/desktop_small.css">	
-	<link type="text/css" rel="stylesheet" href="content/css/media_query/tablet.css">
-	<link type="text/css" rel="stylesheet" href="content/css/media_query/mobile.css">
-	<link type="text/css" rel="stylesheet" href="content/lightbox/css/lightbox.css">
+    <link type="text/css" rel="stylesheet" href="content/css/base.css"> 
+	<link type="text/css" rel="stylesheet" href="content/css/media_query/desktop_small.css">
 	<script src="content/js/jquery-1.11.1.min.js"></script>
     <script src="content/js/main.js"></script>
     <script src="content/js/slider/jquery.slides.min.js"></script>

@@ -29,9 +29,14 @@
 		  });
 		});
     </script>
+	<style>
+	.p_detail a{ color: #67b5d1 }
+
+	.p_detail a:hover{ color: #3184a1 }
+	</style>
  </head>
   <body>
-    <?php include('../../include/inc_menu_mobile.php');?>
+    <?php include('../../include/inc_menu_mobile_article.php');?>
     <div id="wrapper">
       <?php include('../../include/inc_contact_article.php');?>
       <header>

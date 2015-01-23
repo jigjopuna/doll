@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+<?php ob_start("ob_gzhandler"); ?>
+<!DOCTYPE html>
 <html>
   <head>
 	<meta name="google-site-verification" content="9jywhHjeO7mD2EIeu5cbKZGmiTWwE9M_BvXDNE8iy1M" />
@@ -6,8 +7,7 @@
 	<meta http-equiv="content-language" content="en, th">
     <meta charset="utf-8">
 	<meta name="keywords" content="ซื้อขายตุ๊กตาชาววัง ซื้อขายตุ๊กตาดินเผา ตุ๊กตาดินเผากรุงเทพ " />
-    <meta name="description" content="ซื้อและขายตุ๊กตาชาววังเป็นผลิตภัณฑ์พื้นเมือง เป็นสินค้า OTOP ของดีของขึ้นชื่อและมีเสียงของจังหวัดอ่างทอง
-	ตุ๊กตาดินเผาผลิตด้วยความปราณีตด้วยฝีมือชาวบ้านที่มีความชำนาญ" />
+    <meta name="description" content="ซื้อและขายตุ๊กตาชาววัง ศูนย์ตุ๊กตาชาววังบ้านบางเสด็จ ทำเป็นสินค้า OTOP ของขึ้นชื่อและมีเสียงของจังหวัดอ่างทอง ตุ๊กตาดินเผาผลิตด้วยความปราณีตด้วยฝีมือชาวบ้านที่มีความชำนาญ" />
     <title>ซื้อตุ๊กตาชาววัง ผลิตและขายตุ๊กตาดินเผา</title>
 	<link rel="shortcut icon" href="content/images/logo/favicon.png">
     <link type="text/css" rel="stylesheet" href="content/css/base.css">
@@ -50,13 +50,13 @@
 			<div id="corousel">
 				<div id="slides">
                 	<img src="content/images/headder/slide02.jpg">
-                    <img src="content/images/headder/slide03.jpg">
+                    <img src="content/images/headder/slide03.jpg" alt="โลโก้ ตุ๊กตาชาววัง">
                 </div>
 			</div><!---end corousel---->
       </header>
 		<div class="detail">
 			<div class="indetail">			
-				<section> 
+				<!--<section> 
                 	<div class="product">        	
 						<div class="texts">
 						<h1><strong><U>แนะนำร้านขายตุ๊กตาชาววัง</U></strong></h1>
@@ -67,8 +67,8 @@
 							จึงจัดตั้งขึ้นมาจัดหน่ายตุ๊กตาชาววังของชาวไทย เพื่อให้สินค้าของคนไทย ของชาวบ้านได้เแพร่หลายออกไป และยังทำให้ชาวบ้านมีอาชีพหลักให้การเลี้ยงชีพ จึงมั่นใจได้ว่าสินค้าตุ๊กตาชาววังมีคุณภาพสูงเนื่องจากประดิษฐ์ด้วยความปราณีต เหมาะกับเป็นสินค้าสะสม หรือ ตกแต่งในบ้านเรือน นอกจากยังสามารถเป็นของฝากได้อีกด้วย และมากไปกว่านั้นทำให้เราสามารถอนุรักษ์าความเป็นไทยและเผยแพร่ข้อมูลความรู้ให้คนรุ่นหลังสืบต่อไป 
 						</p>
 						</div>
-                    </div><!-----end product----->
-                </section>
+                    </div>
+                </section>-->
 				<!--<section> 
 					<div class="product">        	
 						<div class="texts">
@@ -87,7 +87,7 @@
                     </div>
                 </section>-->		
 				
-				<section> 
+				<!--<section> 
 					<div class="product">        	
 						<div class="texts">
 						<h1><strong><U>ส่งสินค้า</U></strong></h1>
@@ -99,24 +99,16 @@
 						   - ซื้อสินค้าครบ  1,000 บาท ฟรีค่าจัดส่ง EMS<br>
 						</p>
 						</div>
-                    </div><!-----end product----->
+                    </div>
 					
-                </section><!---------->	
+                </section>-->	
 				
 				<section> 
                 	<div class="product">
                     	<h1><strong><U>ตุ๊กตาเครื่องปั้นดินเผา สินค้าใหม่</U></strong></h1>
                         <span>ตุ๊กตามาใหม่</span>
                     	<ul style="margin-top:10px;">
-                        	 <li>
-                            	<div class="product_image">
-									<a class="example-image-link" href="content/images/large/01230-AEC-SP.jpg" data-lightbox="Singapo"  data-title="<a href='content/product_detail.php?p_id=01230'>ตุ๊กตาอาเซียน สิงคโปร์ </a>"><img class="example-image" src="content/images/home/01230-AEC-SP.jpg" alt="ตุ๊กตาอาอาเซียน สิงคโปร์" />
-									</a>
-								</div>
-                                <div class="product_detail"> 
-									<a href="content/product_detail.php?p_id=01230" target="blank"><span class="descript">ตุ๊กตาอาเซียน สิงคโปร์</span></a><br> <span class="price"> ราคา ๕oo บาท <br>รหัสสินค้า : 01230</span><br><a href="content/product_detail.php?p_id=01230" class="btn">ใส่ตะกร้า</a>
-								</div>
-                            </li>
+                        	
                              <li>
                             	<div class="product_image">
 									<a class="example-image-link" href="content/images/large/01231-AEC-MS.jpg" data-lightbox="mala_set"  data-title="<a href='content/product_detail.php?p_id=01231'>ตุ๊กตาอาเซียน มาเลเซีย </a>"><img class="example-image" src="content/images/home/01231-AEC-MS.jpg" alt="ตุ๊กตาอาอาเซียน มาเลเซีย" />
@@ -168,7 +160,7 @@
                             </li>
 							<li>
                             	<div class="product_image">
-									<a href="content/product_type.php?p_id=3"><img class="example-image" src="content/images/more.jpg" />
+									<a href="content/product_type.php?p_id=3"><img class="example-image" src="content/images/more.jpg" alt="ตุ๊กตาชาววัง สินค้า" />
 									</a>
 								</div>
                                 
@@ -182,15 +174,6 @@
                 	<div class="product">
                     	<h1><strong><U><a href="content/product_type.php?p_id=2">ตุ๊กตาวัฒนธรรมและการแต่งกาย(10)</a></U></strong></h1>
                     	<ul style="margin-top:10px;">
-                        	<li>
-                            	<div class="product_image">
-									<a class="example-image-link" href="content/images/large/00976.jpg" data-lightbox="female01"  data-title="<a href='content/product_detail.php?p_id=00976'>การแต่งกายผู้หญิงไทย เครื่องปั้นดินเผา ขนาด สูง 4  กว้าง 1.8  ยาว 1.8 เซ็นติเมตร</a>"><img class="example-image" src="content/images/home/00976.jpg" alt="การแต่งกายผู้หญิงไทย เครื่องปั้นดินเผา" />
-									</a>
-								</div>
-                                <div class="product_detail"> 
-									<a href="content/product_detail.php?p_id=00976" target="blank"><span class="descript">การแต่งกายผู้หญิงไทย</span></a><br> <span class="price"> ราคา ๒o บาท <br>รหัสสินค้า : 00976</span><br><a href="content/product_detail.php?p_id=00976" class="btn">ใส่ตะกร้า</a>
-								</div>
-                            </li>
 							<li>
                             	<div class="product_image">
 									<a class="example-image-link" href="content/images/large/00977_woman.jpg" data-lightbox="female02"  data-title="<a href='content/product_detail.php?p_id=00977'>การแต่งกายผู้หญิงไทย เครื่องปั้นดินเผา</a>"><img class="example-image" src="content/images/home/00977_woman.jpg" alt="การแต่งกายผู้หญิงไทย เครื่องปั้นดินเผา" />
@@ -273,16 +256,16 @@
 									</a>
 								</div>
                                 <div class="product_detail"> 
-									<a href="product_detail.php?p_id=01103" target="blank"><span class="descript">นวดแผนโบราณต้นตำหรับเมืองไทย</span></a><br> <span class="price"> ราคา ๓oo บาท <br>รหัสสินค้า : 01103</span><br><a href="content/product_detail.php?p_id=01103" class="btn">ใส่ตะกร้า</a>
+									<a href="content/product_detail.php?p_id=01103" target="blank"><span class="descript">นวดแผนโบราณต้นตำหรับเมืองไทย</span></a><br> <span class="price"> ราคา ๓oo บาท <br>รหัสสินค้า : 01103</span><br><a href="content/product_detail.php?p_id=01103" class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
 							<li>
                             	<div class="product_image">
-									<a class="example-image-link" href="content/images/large/01114_mong.jpg" data-lightbox="01114_mong"  data-title="<a href='product_detail.php?p_id=01114'>ตุ๊กตาถวายภัตตหารพระภิกษุ</a>"><img class="example-image" src="content/images/home/01114_mong.jpg" alt="ตุ๊กตาถวายภัตตหารพระภิกษุ เครื่องปั้นดินเผา" />
+									<a class="example-image-link" href="content/images/large/01114_mong.jpg" data-lightbox="01114_mong"  data-title="<a href='content/product_detail.php?p_id=01114'>ตุ๊กตาถวายภัตตหารพระภิกษุ</a>"><img class="example-image" src="content/images/home/01114_mong.jpg" alt="ตุ๊กตาถวายภัตตหารพระภิกษุ เครื่องปั้นดินเผา" />
 									</a>
 								</div>
                                 <div class="product_detail"> 
-									<a href="product_detail.php?p_id=01114" target="blank"><span class="descript">ตุ๊กตาถวายภัตตหารพระภิกษุ</span></a><br> <span class="price"> ราคา ๓oo บาท <br>รหัสสินค้า : 01114</span><br><a href="content/product_detail.php?p_id=01114" class="btn">ใส่ตะกร้า</a>
+									<a href="content/product_detail.php?p_id=01114" target="blank"><span class="descript">ตุ๊กตาถวายภัตตหารพระภิกษุ</span></a><br> <span class="price"> ราคา ๓oo บาท <br>รหัสสินค้า : 01114</span><br><a href="content/product_detail.php?p_id=01114" class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
 							<li>
@@ -307,29 +290,29 @@
                     	<ul style="margin-top:10px;">
                         	 <li>
                             	<div class="product_image">
-									<a class="example-image-link" href="content/images/large/01029_boxing.jpg" data-lightbox="muay01"  data-title="<a href='product_detail.php?p_id=01029'>ตุ๊กตามวยไทยเด็กน้อยทำจากเครื่องปั่นดินเผาขนาด กว้าง 3.2 ยาว 3.2 และสูง 3.2 เซ็นติเมตร </a>"><img class="example-image" src="content/images/home/01029_boxing.jpg" alt="ตุ๊กตามวยไทยเด็กน้อย ของฝาก" />
+									<a class="example-image-link" href="content/images/large/01029_boxing.jpg" data-lightbox="muay01"  data-title="<a href='content/product_detail.php?p_id=01029'>ตุ๊กตามวยไทยเด็กน้อยทำจากเครื่องปั่นดินเผาขนาด กว้าง 3.2 ยาว 3.2 และสูง 3.2 เซ็นติเมตร </a>"><img class="example-image" src="content/images/home/01029_boxing.jpg" alt="ตุ๊กตามวยไทยเด็กน้อย ของฝาก" />
 									</a>
 								</div>
                                 <div class="product_detail"> 
-									<a href="product_detail.php?p_id=01029" target="blank"><span class="descript">ตุ๊กตามวยไทยเด็กน้อย</span></a><br> <span class="price"> ราคา ๔o บาท <br>รหัสสินค้า : 01029</span><br><a href="content/product_detail.php?p_id=01029" class="btn">ใส่ตะกร้า</a>
+									<a href="content/product_detail.php?p_id=01029" target="blank"><span class="descript">ตุ๊กตามวยไทยเด็กน้อย</span></a><br> <span class="price"> ราคา ๔o บาท <br>รหัสสินค้า : 01029</span><br><a href="content/product_detail.php?p_id=01029" class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
                             <li>
                             	<div class="product_image">
-									<a class="example-image-link" href="content/images/large/01026_child_.jpg" data-lightbox="muay02"  data-title="<a href='product_detail.php?p_id=01026'>ตุ๊กตามวยไทยเด็กน้อยผมเปีย ทำจากเครื่องปั่นดินเผาขนาด กว้าง 3.2 ยาว 3.2 และสูง 3.2 เซ็นติเมตร</a>"><img class="example-image" src="content/images/home/01026_child_.jpg" alt="ตุ๊กตามวยไทยเด็กน้อยผมเปีย ของฝาก" />
+									<a class="example-image-link" href="content/images/large/01026_child_.jpg" data-lightbox="muay02"  data-title="<a href='content/product_detail.php?p_id=01026'>ตุ๊กตามวยไทยเด็กน้อยผมเปีย ทำจากเครื่องปั่นดินเผาขนาด กว้าง 3.2 ยาว 3.2 และสูง 3.2 เซ็นติเมตร</a>"><img class="example-image" src="content/images/home/01026_child_.jpg" alt="ตุ๊กตามวยไทยเด็กน้อยผมเปีย ของฝาก" />
 									</a>
 								</div>
                                 <div class="product_detail"> 
-									<a href="product_detail.php?p_id=01026" target="blank"><span class="descript">ตุ๊กตามวยไทยเด็กน้อยผมเปีย</span></a><br> <span class="price"> ราคา ๔o บาท <br>รหัสสินค้า : 01026</span><br><a href="content/product_detail.php?p_id=01026" class="btn">ใส่ตะกร้า</a>
+									<a href="content/product_detail.php?p_id=01026" target="blank"><span class="descript">ตุ๊กตามวยไทยเด็กน้อยผมเปีย</span></a><br> <span class="price"> ราคา ๔o บาท <br>รหัสสินค้า : 01026</span><br><a href="content/product_detail.php?p_id=01026" class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
 							 <li>
                             	<div class="product_image">
-									<a class="example-image-link" href="content/images/large/01010_child.jpg" data-lightbox="poakob"  data-title="<a href='product_detail.php?p_id=01010'>ตุ๊กตาเด็กเล่นเป่ากบ</a>"><img class="example-image" src="content/images/home/01010_child.jpg" alt="ตุ๊กตาเด็กเล่นเป่ากบ ของฝาก" />
+									<a class="example-image-link" href="content/images/large/01010_child.jpg" data-lightbox="poakob"  data-title="<a href='content/product_detail.php?p_id=01010'>ตุ๊กตาเด็กเล่นเป่ากบ</a>"><img class="example-image" src="content/images/home/01010_child.jpg" alt="ตุ๊กตาเด็กเล่นเป่ากบ ของฝาก" />
 									</a>
 								</div>
                                 <div class="product_detail"> 
-									<a href="product_detail.php?p_id=01010" target="blank"><span class="descript">ตุ๊กตาเด็กเล่นเป่ากบ</span></a><br> <span class="price"> ราคา ๔o บาท <br>รหัสสินค้า : 01010</span><br><a href="content/product_detail.php?p_id=01010" class="btn">ใส่ตะกร้า</a>
+									<a href="content/product_detail.php?p_id=01010" target="blank"><span class="descript">ตุ๊กตาเด็กเล่นเป่ากบ</span></a><br> <span class="price"> ราคา ๔o บาท <br>รหัสสินค้า : 01010</span><br><a href="content/product_detail.php?p_id=01010" class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
 							<li>
@@ -351,21 +334,21 @@
                     	<ul style="margin-top:10px;">
 							<li>
                             	<div class="product_image">
-									<a class="example-image-link" href="content/images/large/01045_marry.jpg" data-lightbox="01045_marry"  data-title="<a href='product_detail.php?p_id=01045'>ตุ๊กตาการแต่งงานตามประเพณีไทย </a>"><img class="example-image" src="content/images/home/01045_marry.jpg" alt="ตุ๊กตาการแต่งงานตามประเพณีไทย เครื่องปั้นดินเผา" />
+									<a class="example-image-link" href="content/images/large/01045_marry.jpg" data-lightbox="01045_marry"  data-title="<a href='content/product_detail.php?p_id=01045'>ตุ๊กตาการแต่งงานตามประเพณีไทย </a>"><img class="example-image" src="content/images/home/01045_marry.jpg" alt="ตุ๊กตาการแต่งงานตามประเพณีไทย เครื่องปั้นดินเผา" />
 									</a>
 								</div>
                                 <div class="product_detail"> 
-									<a href="product_detail.php?p_id=01045" target="blank"><span class="descript">ตุ๊กตาการแต่งงานตามประเพณีไทย</span></a><br> <span class="price"> ราคา ๓oo บาท <br>รหัสสินค้า : 01045</span><br><a href="content/product_detail.php?p_id=01045" class="btn">ใส่ตะกร้า</a>
+									<a href="content/product_detail.php?p_id=01045" target="blank"><span class="descript">ตุ๊กตาการแต่งงานตามประเพณีไทย</span></a><br> <span class="price"> ราคา ๓oo บาท <br>รหัสสินค้า : 01045</span><br><a href="content/product_detail.php?p_id=01045" class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
                         	
 							<li>
                             	<div class="product_image">
-									<a class="example-image-link" href="content/images/large/01048_marry.jpg" data-lightbox="01048_marry"  data-title="<a href='product_detail.php?p_id=01048'>ตุ๊กตาการแต่งงานตามประเพณีไทย </a>"><img class="example-image" src="content/images/home/01048_marry.jpg" alt="ตุ๊กตาการแต่งงานตามประเพณีไทย เครื่องปั้นดินเผา" />
+									<a class="example-image-link" href="content/images/large/01048_marry.jpg" data-lightbox="01048_marry"  data-title="<a href='content/product_detail.php?p_id=01048'>ตุ๊กตาการแต่งงานตามประเพณีไทย </a>"><img class="example-image" src="content/images/home/01048_marry.jpg" alt="ตุ๊กตาการแต่งงานตามประเพณีไทย เครื่องปั้นดินเผา" />
 									</a>
 								</div>
                                 <div class="product_detail"> 
-									<a href="product_detail.php?p_id=01048" target="blank"><span class="descript">ตุ๊กตาการแต่งงานตามประเพณีไทย</span></a><br> <span class="price"> ราคา ๓oo บาท <br>รหัสสินค้า : 01048</span><br><a href="content/product_detail.php?p_id=01048" class="btn">ใส่ตะกร้า</a>
+									<a href="content/product_detail.php?p_id=01048" target="blank"><span class="descript">ตุ๊กตาการแต่งงานตามประเพณีไทย</span></a><br> <span class="price"> ราคา ๓oo บาท <br>รหัสสินค้า : 01048</span><br><a href="content/product_detail.php?p_id=01048" class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
 							<li>
@@ -395,7 +378,7 @@
                     	<ul style="margin-top:10px;">
                         	<li>
                             	<div class="product_image">
-									<a class="example-image-link" href="content/images/large/01488-thaimusic.jpg" data-lightbox="ผู้หญิงตีขิม"  data-title="<a href='content/product_detail.php?p_id=01488'>ผู้หญิงตีขิม</a>"><img class="example-image" src="content/images/home/01488-thaimusic.jpg" alt="ผู้หญิงตีขิม" />
+									<a class="example-image-link" href="content/images/large/01488-thaimusic.jpg" data-lightbox="ผู้หญิงตีขิม"  data-title="<a href='content/product_detail.php?p_id=01488'>ผู้หญิงตีขิม</a>"><img class="example-image" src="content/images/home/01488-thaimusic.jpg" alt="ตุ๊กตาชาววัง ผู้หญิงตีขิม" />
 									</a>
 								</div>
                                 <div class="product_detail"> 
@@ -404,20 +387,30 @@
                             </li>
 							<li>
                             	<div class="product_image">
-									<a class="example-image-link" href="content/images/large/01487-thaimusic.jpg" data-lightbox="ผู้หญิงตีกลองยาว"  data-title="<a href='content/product_detail.php?p_id=01487'>ผู้หญิงตีกลองยาว</a>"><img class="example-image" src="content/images/home/01487-thaimusic.jpg" alt="ผู้หญิงตีกลองยาว" />
+									<a class="example-image-link" href="content/images/large/01487-thaimusic.jpg" data-lightbox="ผู้หญิงตีกลองยาว"  data-title="<a href='content/product_detail.php?p_id=01487'>ผู้หญิงตีกลองยาว</a>"><img class="example-image" src="content/images/home/01487-thaimusic.jpg" alt="ตุ๊กตาชาววัง ผู้หญิงตีกลองยาว" />
 									</a>
 								</div>
                                 <div class="product_detail"> 
 									<a href="content/product_detail.php?p_id=01487" target="blank"><span class="descript">ผู้หญิงตีกลองยาว</span></a><br> <span class="price"> ราคา 79 บาท <br>รหัสสินค้า : 01487</span><br><a href="content/product_detail.php?p_id=01487" class="btn">ใส่ตะกร้า</a>
 								</div>
                             </li>
-							
 							<li>
                             	<div class="product_image">
-									<a href="content/product_type.php?p_id=2"><img class="example-image" src="content/images/more.jpg" />
+									<a class="example-image-link" href="content/images/large/01489-thaidrum.jpg" data-lightbox="ผู้หญิงตีกลองยาว"  data-title="<a href='content/product_detail.php?p_id=01489'>ตุ๊กตาเครื่องตนตรีไทย</a>"><img class="example-image" src="content/images/home/01489-thaidrum.jpg" alt="ตุ๊กตาชาววัง เครื่องตนตรีไทย" />
 									</a>
 								</div>
-                                
+                                <div class="product_detail"> 
+									<a href="content/product_detail.php?p_id=01489" target="blank"><span class="descript">ตุ๊กตาเครื่องตนตรีไทย</span></a><br> <span class="price"> ราคา 89 บาท <br>รหัสสินค้า : 01489</span><br><a href="content/product_detail.php?p_id=01489" class="btn">ใส่ตะกร้า</a>
+								</div>
+                            </li>
+							<li>
+                            	<div class="product_image">
+									<a class="example-image-link" href="content/images/large/01490-thaidrum.jpg" data-lightbox="ผู้หญิงตีกลองยาว"  data-title="<a href='content/product_detail.php?p_id=01490'>ตุ๊กตาชาววังกลองยาว</a>"><img class="example-image" src="content/images/home/01490-thaidrum.jpg" alt="ตุ๊กตาชาววัง เครื่องตนตรีไทย" />
+									</a>
+								</div>
+                                <div class="product_detail"> 
+									<a href="content/product_detail.php?p_id=01490" target="blank"><span class="descript">ตุ๊กตาชาววังกลองยาว</span></a><br> <span class="price"> ราคา 89 บาท <br>รหัสสินค้า : 01490</span><br><a href="content/product_detail.php?p_id=01490" class="btn">ใส่ตะกร้า</a>
+								</div>
                             </li>
                         </ul>
                     </div><!--end product-->
@@ -487,7 +480,7 @@
                             </li>
 							<li>
                             	<div class="product_image">
-									<a href="content/product_type.php?p_id=7"><img class="example-image" src="content/images/more.jpg" />
+									<a href="content/product_type.php?p_id=7"><img class="example-image" src="content/images/more.jpg" alt="ตุ๊กตาชาววัง สินค้า" />
 									</a>
 								</div>
                                 

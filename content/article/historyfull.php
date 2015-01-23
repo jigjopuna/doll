@@ -31,7 +31,7 @@
     </script>
  </head>
   <body>
-    <?php include('../../include/inc_menu_mobile.php');?>
+    <?php include('../../include/inc_menu_mobile_article.php');?>
     <div id="wrapper">
       <?php include('../../include/inc_contact_article.php');?>
       <header>
@@ -43,6 +43,9 @@
 				<section> 
 					<div class="product">        	
 						<div class="texts">
+						<h1>ประวัติตุ๊กตาชาววัง</h1>
+						<a class="example-image-link" href="../images/headder/slide03.jpg" data-lightbox="history"  data-title="slide03"><img class="example-image" src="../images/headder/slide03.jpg" alt="วัดท่าสุทธาวาส ศูนย์ตุ๊กตาชาววัง จังหวัดอ่างทอง" />
+						</a>
 						 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;บ้านบางป่าโมกน้อย ในสมัยกรุงศรีอยุธยา หรือ อำเภอป่าโมก จังหวัดอ่างทอง ท้องที่นี้มีชื่อปรากฏในพระราชพงศวดารมาเนินนานตั้งแต่สมัยแผ่นดินสมเด็จพระมหาจักพรรดิ์โดยเฉพาะอย่างยิ่งในสมัยสมเด็จพระนเรศวรมหาราชซึ่งทรงทำสงครามกับพม่าหลายครั้งเพื่อกอบกู้เอกราชของชาติไทย พระองค์เสด็จยกกองทัพเรือมา ประชุมพล ณ ตำบลป่าโมกและพิธีตัดไม้ข่มนามเอาฤกดิ์เอาชัย <br><br>
 
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;อำเภอ ป่าโมก  ห่างจากตัวจังหวัดอ่างทอง ๑๓ กิโลเมตร มีเนื้อที่ ๘๑.๘๘ ตารางกิโลเมตร  แบ่งการปกครองออกเป็น ๘ ตำบลคือ<br>

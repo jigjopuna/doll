@@ -1,3 +1,4 @@
+<?php require_once('../include/connect.php'); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,6 +12,17 @@
 	$phone = trim($_POST['phone']);
 	$email = trim($_POST['email']);
 	$detail = trim($_POST['detail']);
+	
+	$sql = "INSERT INTO tb_information SET 
+				inf_name = '$name', 
+				inf_lastname = '$lastname', 
+				inf_phone = '$phone',
+				inf_email = '$email',				
+				inf_detail = '$detail'
+		   ";
+    mysql_query($sql);
+	
+	
 
 	// send mail
 	    $strTo = "phurit_18@hotmail.com";       

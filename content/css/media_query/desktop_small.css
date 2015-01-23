@@ -1,6 +1,1 @@
-@media all and (max-width: 1024px) {
-  .indetail section .product li {
-    width: 22%; }
-    .indetail section .product li img {
-      max-height: 110px;
-      min-height: 110px; } }
+@media all and (max-width: 1200px){.indetail section .product li{width:22%}.indetail section .product li img{margin:auto}}

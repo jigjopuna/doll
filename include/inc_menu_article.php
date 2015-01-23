@@ -8,7 +8,7 @@
 			<a href="../../index.php"><li>หน้าแรก</li></a>
 			<a href="#"><li>ตุ๊กตาดินเผา</li></a>
 			<a href="#"><li>ตุ๊กตาไม้</li></a>
-			<a href="contact.php"><li>ติดต่อซื้อ</li></a>
+			<a href="../../contact.php"><li>ติดต่อซื้อ</li></a>
 			<a href="#"><li>การชำระเงิน</li></a>
 			<a href="#"><li>บทความ/ความรู้</li></a>
 			<a href="history.php"><li>ประวัติ</li></a>

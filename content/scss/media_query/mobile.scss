@@ -22,6 +22,12 @@
 	  	padding: 0 2px;
 	}
 	
+	
+	/*HEADDER*/
+	#logo_01 { width: 60% !important;
+		.phone:last-child { display: none !important; }
+		.phone { width: 45% !important; }
+	}
 	section .p_img, section .p_detail {
 		width: 98% !important;
 		float: none !important; 

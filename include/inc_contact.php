@@ -1,16 +1,16 @@
 <div id="coverLogo">
 			<img src="content/images/logo/logo96.png">
 			<div id="logo_01">		
-				<div class="phone" style="width:20%">
+				<div class="phone">
 					<a href="https://www.facebook.com/chowwangtukkata" target="blank"><img src="content/images/social/facebook-hover.png"></a>
 				</div><!-----end phone----->
-				<div class="phone" style="width:30%">
+				<div class="phone">
 					<img src="content/images/social/line30.png" style="margin:10px 5px 0 0;">
 					<div class="phone_num">
 						<span>phurits</span>
 					</div>
 				</div><!-----end phone----->
-				<div class="phone" style="width:45%">
+				<div class="phone">
 					<img src="content/images/phone-7-256.png" width="40" height="40">
 					<div class="phone_num">
 						<span>0840137350</span>
