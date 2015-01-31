@@ -37,14 +37,22 @@
 					return false;   
 			 });
 		/*---end no click right----*/
-		
+			var keepHieght = 0;
 			$( window ).scroll(function() {
 			    var winWidth = GetWidth();
 				var winTop = $(window).scrollTop();
 				var winHieght = $(window).height();
 				var docHieght = $(document).height();
+				var b = (winTop + winHieght) - (docHieght - 800);
+				$('.winTop').text('winTop : '+winTop);
+				$('.winHieght').text('winHieght : '+winHieght);
+				$('.docHieght').text('docHieght : '+docHieght);
+				$('.diff').text('diff : '+b);
+				
 				if( winWidth > 800 ){
-					if(winTop + winHieght  > docHieght - 800){  
+					if(winTop + winHieght  > docHieght - 800){
+						if(keepHieght>(winTop + winHieght)) return false;
+						keepHieght = winTop + winHieght;
 						sendAjax();
 					}
 				}else if( winWidth > 600 ){
@@ -63,10 +71,11 @@
 		function sendAjax(){ 
 			var a = $('.indetail > section.items').length;
 			if (a>10) return false;
+			$('.numlist').text('numlist : '+a); 
 			var url = "sys/ajax_product.php";
 			var param = "numCate="+a;
 			$.post(url, param, function(data){
-				$('.indetail').append(data);							
+				$('.indetail').append(data);
 			});//end post ajax
 		}//end fn sendAjax
 		
@@ -149,7 +158,11 @@
                     </div>
 					
                 </section>-->	
+				<p class="winTop"></p>
+				<p class="winHieght"></p>
+				<p class="docHieght"></p>
 				
+				<p class="numlist"></p>
 				<section class="items"> 
                 	<div class="product">
                     	<h1><strong><U>ตุ๊กตาเครื่องปั้นดินเผา สินค้าใหม่</U></strong></h1>
@@ -216,6 +229,7 @@
                         </ul>
                     </div><!--end product-->
                 </section><!--end section1-->	
+				<p class="diff"></p>
             </div><!-- end indetail-->
 	    </div><!-- end detail-->    
 		

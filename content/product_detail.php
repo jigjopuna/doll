@@ -95,7 +95,8 @@
 							<strong>ราคา : </strong> <s>฿<?php echo $row['p_fullprice'];?></s> &nbsp;&nbsp;&nbsp;&nbsp;
 							<strong>พิเศษ : </strong> ฿<?php echo $row['p_price'];?>
 						</div><!---end p_price-->
-						<div class="p_stock"><strong>In Stock : </strong><?php echo $row['p_stock'];?></div><!---end p_stock-->
+						<div class="p_stock"><strong>สต็อก : </strong><?php echo $row['p_stock'];?>
+						<div class="p_code"><strong>รหัสสินค้า: </strong><?php echo $row['p_code'];?></div><!---end p_stock-->
 						<div class="p_size"><strong>
 						ขนาด : </strong>
 						 <?php echo $row['p_width'];?> x 

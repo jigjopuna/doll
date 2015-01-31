@@ -17,7 +17,7 @@
                     	<ul style='margin-top:10px;'>
 							<li>
                             	<div class='product_image'>
-									<a href='http://www.google.com'>
+									<a href='content/product_detail.php?p_id=01490' target='blank'>
 										<img class='example-image' src='content/images/home/00977_woman.jpg' alt='การแต่งกายผู้หญิงไทย เครื่องปั้นดินเผา'/>
 									</a>
 								</div>

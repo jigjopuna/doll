@@ -74,7 +74,7 @@
                     	<h1>สินค้าหมวด <?php echo $row_cat['type_name'];?></h1>
 						<span>(มีทั้งหมด <?php echo $num;?>  รายการ)</span>
                     	<ul style="margin-top:10px;">
-						<?php for ($i=1; $i<=$num; $i++) {
+						<?php for ($i=1; $i<$num; $i++) {
 							$row = mysql_fetch_array($result);
 						?>
                         	<li>
