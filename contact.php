@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="content-language" content="en, th">
     <meta charset="utf-8">
-	<meta name="keywords" content="ติดต่อซื้อตุ๊กตาชาววัง ขายตุ๊กตาชาววังกรุงเทพ" />
-    <meta name="description" content="ติดต่อซื้อตุ๊กตาชาววังในกรุงเทพมหานคร ได้ที่นี่" />
+	<meta name="keywords" content="ซื้อตุ๊กตาชาววังที่ไหน ที่ไหนขายตุ๊กตาชาววัง" />
+    <meta name="description" content="ซื้อตุ๊กตาชาววังที่ไหน ซื้อตูีกตาชาววังที่นี่ อยากได้ตุ๊กตาชาววัง อยากได้ตุ๊กตาดินเผา" />
     <title>ติดต่อซื้อตุ๊กตาชาววัง ในกรุงเทพ</title>
 	<link rel="shortcut icon" href="content/images/logo/favicon.png">
     <link type="text/css" rel="stylesheet" href="content/css/base.css"> 

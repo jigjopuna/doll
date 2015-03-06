@@ -494,7 +494,10 @@
 	    </div><!-- end detail-->    
 		
 		<?php include('include/inc_sitemap.php');?>
-		
+		<div class="cert">
+			<a class="example-image-link" href="content/images/logo/dbd_l.jpg" data-lightbox="dbd"  data-title="ขึ้นทะเบียนพานิชย์ มั่นใจกับการซื้อสินค้าแน่นอน"><img class="example-image" src="content/images/logo/dbd_s.jpg" alt="ขึ้นทะเบียนพานิชย์ ตุ๊กตาชาววัง" /></a>
+			<a class="example-image-link" href="content/images/logo/cert_l.jpg" data-lightbox="cert"  data-title="ขึ้นทะเบียนพานิชย์ มั่นใจกับการซื้อสินค้าแน่นอน"><img class="example-image" src="content/images/logo/cert_s.jpg" alt="ขึ้นทะเบียนพานิชย์ ตุ๊กตาชาววัง" /></a>
+		</div><!-- end cert--> 
 		<footer>
       	<div id="social_icon">
         	<ul>

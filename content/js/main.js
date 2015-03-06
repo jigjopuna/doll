@@ -6,5 +6,7 @@
 
   ga('create', 'UA-57014167-1', 'auto');
   ga('send', 'pageview');
-
+ 
 </script>
+
+<script src="http://t1.extreme-dm.com/f.js" id="eXF-chowwang-0" async defer></script>

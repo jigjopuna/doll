@@ -10,7 +10,7 @@
 			<a href="#"><li>ตุ๊กตาไม้</li></a>
 			<a href="contact.php"><li>ติดต่อซื้อ</li></a>
 			<a href="#"><li>การชำระเงิน</li></a>
-			<a href="#"><li>บทความ/ความรู้</li></a>
+			<a href="content/article/travel.php"><li>บทความ/ความรู้</li></a>
 			<a href="content/article/history.php"><li>ประวัติ</li></a>
 		</ul>
     </div>
